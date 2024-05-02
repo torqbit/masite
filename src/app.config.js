@@ -38,14 +38,14 @@ const appConfig = {
         {
             title: "A Talk on Optimizing CSS for performance",
             date: "November 13, 2023",
-            imgSrc: Presentation01,
-            playBtnImgSrc: PlayButton
+            imgSrc: "img/presentation-01.png",
+            playBtnImgSrc: "img/play-button.png"
         },
         {
             title: "Make responsive website for ecommerce",
             date: "December 13, 2023",
-            imgSrc: Presentation02,
-            playBtnImgSrc: PlayButton
+            imgSrc: 'img/presentation-02.png',
+            playBtnImgSrc: 'img/play-button.png'
         }
     ],
     footer: {

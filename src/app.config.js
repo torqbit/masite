@@ -27,7 +27,7 @@ const appConfig = {
             link: "https://medium.com/u/link2"
         },
     ],
-    Project: [
+    projects: [
         {
           img: ("./img/vegking.png"),
           name: "Vegking",

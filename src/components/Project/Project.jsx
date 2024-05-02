@@ -1,10 +1,10 @@
 import './Project.css'
-export default function Project({projectarray}){
+export default function Projects({projects}){
     return(
         <section className="projects">
         <h2>Open Source Projects</h2>
             <div>
-            {projectarray.map((value,index) => (
+            {projects.map((value,index) => (
             <div>
                 <span>{index+1}</span>
                 <img src={value.img}/>

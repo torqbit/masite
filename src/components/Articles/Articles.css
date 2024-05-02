@@ -1,0 +1,41 @@
+section#articles>article {
+    width: 1000px;
+    margin: 50px auto;
+}
+
+section#articles>article>article {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section#articles>article>article>div {
+    border-left: 4px solid #EEE;
+    padding-left: 10px;
+}
+
+section#articles>article>article>a {
+    color: #666;
+    width: 90px;
+    display: inline-block;
+    padding: 10px;
+    /*   */
+    background-repeat: no-repeat;
+    background-position: right;
+    border-radius: 4px;
+    color: var(--font-color);
+}
+
+section#articles>article>article>a:hover {
+    background-color: black;
+    color: white;
+    /* background-image: url("/img/right-arrow-light.png"); */
+}
+
+@media screen and (max-width: 425px) {
+    section#articles>article {
+        width: 360px;
+    }
+
+}

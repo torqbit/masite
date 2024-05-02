@@ -42,7 +42,7 @@ const appConfig = {
         }
     ],
     footer: {
-        author: ""
+        author: "Ejaz Ahmed"
     }
 }
 

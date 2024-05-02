@@ -1,21 +1,18 @@
-import appConfig from '../../app.config'
 import './Project.css'
-export default function Opensource({opensourcearray}){
+export default function Project({projectarray}){
     return(
-        <>
         <section className="projects">
         <h2>Open Source Projects</h2>
             <div>
-            {appConfig.opensourcedata.map((value,index) => (
+            {projectarray.map((value,index) => (
             <div>
-                <span>{value. spantxt}</span>
-                <img src={value.imgsrc}/>
-                <p>{value.paratxt}</p>
+                <span>{index+1}</span>
+                <img src={value.img}/>
+                <p>{value.name}</p>
             </div>
         ))}
             </div>
       
         </section>
-        </>
     )
 }

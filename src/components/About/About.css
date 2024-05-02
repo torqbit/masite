@@ -1,0 +1,45 @@
+section#home {
+    text-align: center;
+}
+
+
+section#home>img {
+    object-fit: cover;
+    height: 120px;
+    width: 120px;
+    border-radius: 62px;
+    border: 4px solid white;
+}
+
+section#home p {
+    text-align: center;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+ul.social-links {
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+
+ul.social-links>li>img {
+    height: 60px;
+    width: 60px;
+}
+
+@media screen and (max-width: 425px) {
+    section#home {
+        margin-top: 75px;
+    }
+
+    section#home p {
+        max-width: 360px;
+    }
+
+    ul.social-links {
+        max-width: 360px;
+    }
+
+}

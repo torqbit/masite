@@ -36,9 +36,16 @@ const appConfig = {
     ],
     presentations: [
         {
-            title: "",
-            thumbnail: "",
-            dateOfTalk: ""
+            title: "A Talk on Optimizing CSS for performance",
+            date: "November 13, 2023",
+            imgSrc: "img/presentation-01.png",
+            playBtnImgSrc: "img/play-button.png"
+        },
+        {
+            title: "Make responsive website for ecommerce",
+            date: "December 13, 2023",
+            imgSrc: 'img/presentation-02.png',
+            playBtnImgSrc: 'img/play-button.png'
         }
     ],
     footer: {

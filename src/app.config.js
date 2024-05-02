@@ -27,13 +27,29 @@ const appConfig = {
             link: "https://medium.com/u/link2"
         },
     ],
-    projects: [
+    opensourcedata: [
         {
-            name: "",
-            img: "",
-            githubLink: ""
-        }
-    ],
+          spantxt: "1",
+          imgsrc: ("./img/vegking.png"),
+          paratxt: "Vegking",
+        },
+        {
+          spantxt: "2",
+          imgsrc: ("./img/carstats.png"),
+          paratxt: "Carstats",
+        },
+        {
+          spantxt: "3",
+          imgsrc: ("./img/bloguikit.png"),
+          paratxt: "Blog UI Kit",
+        },
+        {
+          spantxt: "4",
+          imgsrc:("./img/webmonitor.png"),
+          paratxt: "Web Monitor",
+        },
+      ],
+    
     presentations: [
         {
             title: "",

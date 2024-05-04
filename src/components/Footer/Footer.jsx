@@ -1,9 +1,10 @@
 import React from 'react';
 import './Footer.css';
 
-export default function Footer({ links, name }) {
+export default function Footer({ links, author }) {
     return (
         <footer>
+
         <ul className="footer-links">
             {links.map((link, index) => (
                 <li key={index}>
@@ -11,13 +12,7 @@ export default function Footer({ links, name }) {
                 </li>
             ))}
         </ul>
-        <p> @Copyright; 2024 {name}. All rights reserved.</p>
+        <a> © Copyright {author}. All rights reserved.</a>
     </footer>
 );
 }
-
-// function FooterContent({ links, name }) {
-//     return (
-  
-// }
-

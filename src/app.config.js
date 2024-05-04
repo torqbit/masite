@@ -1,6 +1,6 @@
 const appConfig = {
     links: ["Home", "Articles", "Projects", "Presentations"],
-    mediumFeedLink: "https://medium.com/@shadamez/feed",
+        mediumFeedLink: "https://medium.com/@shadamez/feed",
     about: {
         name: "Shad",
         img: "https://placehold.co/160x160",
@@ -41,9 +41,10 @@ const appConfig = {
             dateOfTalk: ""
         }
     ],
-    footer: {
-        author: "Ejaz Ahmed"
-    }
+    footer:{
+        author:"Ejaz Ahmed"
+    
+}
 }
 
 export default appConfig;

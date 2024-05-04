@@ -11,7 +11,7 @@ function App() {
       <Nav links={appConfig.links} />
       <About {...appConfig.about} />
       <Articles articles={appConfig.articles} />
-      <Footer links={appConfig.links} name={appConfig.footer.author} />
+      <Footer links={appConfig.links} author={appConfig.footer.author} />
     </div>
   );
 }

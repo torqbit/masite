@@ -27,25 +27,24 @@ const appConfig = {
             link: "https://medium.com/u/link2"
         },
     ],
-    projects: [
+    projects:[
         {
-          img: ("./img/vegking.png"),
-          name: "Vegking",
+            img:"./img/vegking.png",
+            name:"Vegking",
         },
         {
-          img: ("./img/carstats.png"),
-          name: "Carstats",
+            img:"./img/carstats.png",
+            name:"Carstats",
         },
         {
-          img: ("./img/bloguikit.png"),
-          name: "Blog UI Kit",
+            img:"./img/bloguikit.png",
+            name:"Blog UI Kit"
         },
         {
-          img:("./img/webmonitor.png"),
-          name: "Web Monitor",
-        },
-      ],
-    
+            img:"./img/webmonitor.png",
+            name:"Web Monitor",
+        }
+    ],
     presentations: [
         {
             title: "",

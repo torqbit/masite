@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 
-export default function Footer({ links }) {
+export default function Footer({ links, author }) {
     return (
         <footer>
             {links.map((link, index) => (
@@ -10,7 +10,7 @@ export default function Footer({ links }) {
                 </a>
             ))}
             <div className="cpyright">
-                &copy; Copyright Shad Amez. All rights reserved
+                &copy; {new Date().getFullYear()} {author}. All rights reserved
             </div>
         </footer>
     );

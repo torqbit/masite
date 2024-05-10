@@ -1,4 +1,4 @@
-import './Project.css'
+import './Projects.css'
 export default function Projects({projects}){
     return(
         <section className="projects" >

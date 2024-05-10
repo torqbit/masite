@@ -1,6 +1,6 @@
 const appConfig = {
     links: ["Home", "Articles", "Projects", "Presentations"],
-    mediumFeedLink: "https://medium.com/@shadamez/feed",
+    
     about: {
         name: "Shad",
         img: "https://placehold.co/160x160",

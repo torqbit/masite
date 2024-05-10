@@ -9,7 +9,7 @@ export default function About({ name, img, title, description, socialLinks }) {
         <p>
             {description}
         </p>
-        <ul class="social-links">
+        <ul className="social-links">
             <li><a href={socialLinks.youtube} target='_blank' ><img src="img/Youtube.png" alt='youtube logo' /></a></li>
             <li><a href={socialLinks.github} target='_blank' ><img src="img/GitHub.png" alt='github logo' /></a></li>
             <li><a href={socialLinks.linkedin} target='_blank'><img src="img/Linkedin.png" alt='linkedin logo' /></a></li>

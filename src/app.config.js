@@ -1,6 +1,6 @@
 const appConfig = {
     links: ["Home", "Articles", "Projects", "Presentations"],
-    mediumFeedLink: "https://medium.com/@shadamez/feed",
+    
     about: {
         name: "Shad",
         img: "https://placehold.co/160x160",
@@ -27,11 +27,22 @@ const appConfig = {
             link: "https://medium.com/u/link2"
         },
     ],
-    projects: [
+    projects:[
         {
-            name: "",
-            img: "",
-            githubLink: ""
+            img:"./img/vegking.png",
+            name:"Vegking",
+        },
+        {
+            img:"./img/carstats.png",
+            name:"Carstats",
+        },
+        {
+            img:"./img/bloguikit.png",
+            name:"Blog UI Kit"
+        },
+        {
+            img:"./img/webmonitor.png",
+            name:"Web Monitor",
         }
     ],
     presentations: [

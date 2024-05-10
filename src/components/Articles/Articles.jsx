@@ -10,7 +10,6 @@ export default function Articles({ articles }) {
     </section>
     )
 }
-
 function Article({ article }) {
     return (
         <article>
@@ -22,5 +21,5 @@ function Article({ article }) {
                 Read More
             </a>
         </article>
-    )
+    )
 }

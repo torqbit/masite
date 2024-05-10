@@ -37,15 +37,15 @@ const appConfig = {
     presentations: [
         {
             title: "A Talk on Optimizing CSS for performance",
-            date: "November 13, 2023",
-            imgSrc: "img/presentation-01.png",
-            playBtnImgSrc: "img/play-button.png"
+            dateOfTalk: "November 13, 2023",
+            thumbnail: "img/presentation-01.png",
+            videoLink: "https://www.youtube.com/watch?v=Fkd9TWUtFm0&pp=ygUbdGVkeCB0YWxrcyB3ZWIgZGV2ZWxvcG1lbnQg"
         },
         {
             title: "Make responsive website for ecommerce",
-            date: "December 13, 2023",
-            imgSrc: 'img/presentation-02.png',
-            playBtnImgSrc: 'img/play-button.png'
+            dateOfTalk: "December 13, 2023",
+            thumbnail: 'img/presentation-02.png',
+            videoLink: 'https://www.youtube.com/watch?v=-jRREn6ifEQ&pp=ygUbdGVkeCB0YWxrcyB3ZWIgZGV2ZWxvcG1lbnQg'
         }
     ],
     footer: {

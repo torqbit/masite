@@ -18,12 +18,14 @@ function PresentationItem({ presentation }) {
     return (
         <div>
             <div className="presentation-video">
-                <img src={presentation.imgSrc} alt={presentation.title} />
-                <img src={presentation.playBtnImgSrc} alt="Play" />
+                <img src={presentation.thumbnail} alt={presentation.title} />
+                <a href={presentation.videoLink} target="_blank">
+                    <img src="img/play-button.png" alt="Play" />
+                </a>
             </div>
             <div>
                 <h4>{presentation.title}</h4>
-                <p>{presentation.date}</p>
+                <p>{presentation.dateOfTalk}</p>
             </div>
         </div>
     );

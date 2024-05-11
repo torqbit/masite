@@ -24,7 +24,7 @@
     font-weight: bold;
     border-left:4px solid white
 }
-.projects p{
+.projects a{
     padding: 15px 0px 15px 20px;
     bottom: 0px;
     height: 20px;

@@ -31,19 +31,23 @@ const appConfig = {
         {
             img:"./img/vegking.png",
             name:"Vegking",
+            link:"https://www.google.com/",
         },
         {
             img:"./img/carstats.png",
             name:"Carstats",
+            link:"https://www.google.com/",
         },
         {
             img:"./img/bloguikit.png",
-            name:"Blog UI Kit"
+            name:"Blog UI Kit",
+            link:"https://www.google.com/",
         },
         {
             img:"./img/webmonitor.png",
             name:"Web Monitor",
-        }
+            link:"https://www.google.com/",
+        },
     ],
     presentations: [
         {

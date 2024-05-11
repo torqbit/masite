@@ -1,6 +1,7 @@
 section.articles>article {
     width: 1000px;
     margin: 50px auto;
+  
 }
 
 section.articles>article>article {
@@ -8,6 +9,7 @@ section.articles>article>article {
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
+    box-shadow: 6px 10px 6px 0px rgba(0,0,0,0.1);
 }
 
 section.articles>article>article>div {

@@ -1,0 +1,30 @@
+.footer>div {
+    display: flex;
+    width: 1000px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.footer>div>ul {
+    display: flex;
+    gap: 10px;
+
+}
+
+.footer a {
+    color: var(--font-color);
+    font-weight: bold;
+}
+
+@media screen and (max-width: 425px) {
+    .footer {
+        margin: 20px 0;
+    }
+
+    .footer>div {
+        flex-direction: column;
+        width: 360px;
+    }
+}

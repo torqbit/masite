@@ -1,9 +1,4 @@
-header {
-    background-color: transparent;
-}
-
-
-nav {
+nav.main {
     height: 30px;
     padding: 10px;
     width: 500px;
@@ -14,14 +9,14 @@ nav {
     box-shadow: 0px 4px 5px 0px #dedede;
 }
 
-nav>ul {
+nav.main>ul {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
 }
 
-ul.nav-links>li>a {
+ul.nav__links>li>a {
     padding: 10px;
     color: #666;
     font-weight: bold;
@@ -29,7 +24,7 @@ ul.nav-links>li>a {
 }
 
 @media screen and (max-width: 425px) {
-    nav {
+    nav.main {
         width: 30px;
         position: fixed;
         margin: 0;
@@ -38,7 +33,7 @@ ul.nav-links>li>a {
         z-index: 1;
     }
 
-    nav>ul>li {
+    nav.main>ul>li {
         display: none;
     }
 }

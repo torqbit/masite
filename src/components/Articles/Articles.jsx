@@ -1,8 +1,8 @@
-import './Articles.css'
+import styles from '@/styles/Articles.module.css'
 
 export default function Articles({ articles }) {
 
-    return (<section id="articles">
+    return (<section id="articles" className={styles.articles}>
         <article>
             <h2>Articles</h2>
             {articles.map((article, index) => (<Article key={index} article={article} />))}
@@ -21,5 +21,5 @@ function Article({ article }) {
                 Read More
             </a>
         </article>
-    )
+    )
 }

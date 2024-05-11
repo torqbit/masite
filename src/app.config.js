@@ -31,18 +31,23 @@ const appConfig = {
         {
             img: "./img/vegking.png",
             name: "Vegking",
+            link: "https://github.com/John_Doe/vegking"
         },
         {
             img: "./img/carstats.png",
             name: "Carstats",
+            link: "https://github.com/John_Doe/carstats"
         },
         {
             img: "./img/bloguikit.png",
             name: "Blog UI Kit"
+            link: "https://github.com/John_Doe/blog-ui-kit"
         },
         {
             img: "./img/webmonitor.png",
             name: "Web Monitor",
+            link: "https://github.com/John_Doe/web-monitor"
+
         }
     ],
     presentations: [

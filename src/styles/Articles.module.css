@@ -9,7 +9,7 @@ section.articles>article>article {
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
-    box-shadow: 6px 10px 6px 0px rgba(0,0,0,0.1);
+    box-shadow: 6px 10px 6px 0px var(--boxshadow-color);
 }
 
 section.articles>article>article>div {

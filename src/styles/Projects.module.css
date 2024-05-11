@@ -28,23 +28,6 @@
     border-left: 4px solid var(--button-background);
 }
 
-.projects span.no-1
-{
-    border-left: 8px solid rgb(255 40 0 / 64%)  ;
-}
-.projects span.no-4
-{
-    border-left: 8px solid rgb(127 127 127 / 64%) ;
-}
-.projects p.project-1
-{
-    background-color:rgb(255 40 0 / 64%);
-}
-.projects p.project-4
-{
-    background-color:rgb(127 127 127 / 64%);
-}
-
 .projects p {
     padding: 15px 0px 15px 20px;
     bottom: 0px;

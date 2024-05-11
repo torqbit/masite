@@ -1,8 +1,8 @@
 const appConfig = {
     links: ["Home", "Articles", "Projects", "Presentations"],
-    
+
     about: {
-        name: "Shad",
+        name: "John Doe",
         img: "https://placehold.co/160x160",
         title: "Software Engineer",
         description: "Passionate Open source developer",
@@ -27,22 +27,22 @@ const appConfig = {
             link: "https://medium.com/u/link2"
         },
     ],
-    projects:[
+    projects: [
         {
-            img:"./img/vegking.png",
-            name:"Vegking",
+            img: "./img/vegking.png",
+            name: "Vegking",
         },
         {
-            img:"./img/carstats.png",
-            name:"Carstats",
+            img: "./img/carstats.png",
+            name: "Carstats",
         },
         {
-            img:"./img/bloguikit.png",
-            name:"Blog UI Kit"
+            img: "./img/bloguikit.png",
+            name: "Blog UI Kit"
         },
         {
-            img:"./img/webmonitor.png",
-            name:"Web Monitor",
+            img: "./img/webmonitor.png",
+            name: "Web Monitor",
         }
     ],
     presentations: [
@@ -59,9 +59,6 @@ const appConfig = {
             videoLink: 'https://www.youtube.com/watch?v=-jRREn6ifEQ&pp=ygUbdGVkeCB0YWxrcyB3ZWIgZGV2ZWxvcG1lbnQg'
         }
     ],
-    footer: {
-        author: ""
-    }
 }
 
 export default appConfig;

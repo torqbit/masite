@@ -1,15 +1,15 @@
-import './About.css'
+import styles from '@/styles/About.module.css'
 
 export default function About({ name, img, title, description, socialLinks }) {
 
-    return (<section id="home">
+    return (<section id="home" className={styles.home}>
         <img alt='person' src={img} />
         <h2>{name}</h2>
         <p>{title}</p>
         <p>
             {description}
         </p>
-        <ul className="social-links">
+        <ul className={styles.social__links}>
             <li><a href={socialLinks.youtube} target='_blank' ><img src="img/Youtube.png" alt='youtube logo' /></a></li>
             <li><a href={socialLinks.github} target='_blank' ><img src="img/GitHub.png" alt='github logo' /></a></li>
             <li><a href={socialLinks.linkedin} target='_blank'><img src="img/Linkedin.png" alt='linkedin logo' /></a></li>

@@ -1,9 +1,8 @@
-section#home {
+section.home {
     text-align: center;
 }
 
-
-section#home>img {
+section.home>img {
     object-fit: cover;
     height: 120px;
     width: 120px;
@@ -11,13 +10,13 @@ section#home>img {
     border: 4px solid white;
 }
 
-section#home p {
+section.home p {
     text-align: center;
     max-width: 600px;
     margin: 10px auto;
 }
 
-ul.social-links {
+ul.social__links {
     display: flex;
     gap: 20px;
     margin: auto;
@@ -30,11 +29,11 @@ ul.social-links>li>img {
 }
 
 @media screen and (max-width: 425px) {
-    section#home {
+    section.home {
         margin-top: 75px;
     }
 
-    section#home p {
+    section.home p {
         max-width: 360px;
     }
 

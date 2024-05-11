@@ -1,0 +1,74 @@
+.presentations>h2 {
+    width: 1000px;
+    margin: 20px auto;
+    color: var(--primary-font-color);
+}
+
+.presentations>div {
+    display: flex;
+    gap: 40px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.presentations {
+    margin: 50px 0;
+}
+
+.presentations h4 {
+    font-size: 20px;
+    margin: 10px 10px 10px 0;
+}
+
+div.presentation__video {
+    height: 300px;
+    width: 480px;
+    position: relative;
+}
+
+div.presentation__video>a {
+    position: absolute;
+    top: 120px;
+    right: 210px;
+}
+
+.presentations>div>div>div:last-child {
+    padding: 20px 20px 30px 20px;
+    background-color: white;
+    height: 60px;
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .presentations>h2 {
+        width: 385px;
+        margin: 20px 40px;
+    }
+
+    .presentations>div.pres {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    div.presentation__video {
+        height: 210px;
+        width: 350px;
+        position: relative;
+    }
+
+    div.presentation__video>img:first-child {
+        height: 210px;
+        width: 350px;
+    }
+
+    div.presentation__video>img:last-child {
+        top: 76px;
+        right: 145px;
+    }
+
+    .presentations h4 {
+        font-size: 16px;
+    }
+}

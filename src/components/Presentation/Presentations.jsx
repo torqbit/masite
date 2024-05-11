@@ -1,9 +1,9 @@
 import React from 'react';
-import './Presentation.css';
+import styles from '@/styles/Presentations.module.css'
 
-export default function Presentation({ presentations }) {
+export default function Presentations({ presentations }) {
     return (
-        <section className="presentations">
+        <section id='presentations' className={styles.presentations}>
             <h2>Presentations</h2>
             <div>
                 {presentations.map((presentation, index) => (
@@ -17,7 +17,7 @@ export default function Presentation({ presentations }) {
 function PresentationItem({ presentation }) {
     return (
         <div>
-            <div className="presentation-video">
+            <div className={styles.presentation__video}>
                 <img src={presentation.thumbnail} alt={presentation.title} />
                 <a href={presentation.videoLink} target="_blank">
                     <img src="img/play-button.png" alt="Play" />

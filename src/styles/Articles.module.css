@@ -4,19 +4,19 @@ section.articles>article {
 }
 
 section.articles>article>article {
-    background-color: white;
+    background-color: var(--button-background);
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
 }
 
 section.articles>article>article>div {
-    border-left: 4px solid #EEE;
+    border-left: 4px solid var(--background);
     padding-left: 10px;
 }
 
 section.articles>article>article>a {
-    color: #666;
+    color: var(--primary-font-color);
     width: 90px;
     display: inline-block;
     padding: 10px;
@@ -24,12 +24,12 @@ section.articles>article>article>a {
     background-repeat: no-repeat;
     background-position: right;
     border-radius: 4px;
-    color: var(--font-color);
+    color: var(--black);
 }
 
 section.articles>article>article>a:hover {
-    background-color: black;
-    color: white;
+    background-color: var(--black);
+    color: var(--button-background);
     /* background-image: url("/img/right-arrow-light.png"); */
 }
 

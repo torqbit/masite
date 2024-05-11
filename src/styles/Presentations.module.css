@@ -34,7 +34,7 @@ div.presentation__video>a {
 
 .presentations>div>div>div:last-child {
     padding: 20px 20px 30px 20px;
-    background-color: white;
+    background-color: var(--button-background);
     height: 60px;
 }
 

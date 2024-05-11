@@ -14,18 +14,35 @@
 .projects>h2 {
     width: 1000px;
     margin: 20px auto;
-    color: #888;
+    color: var(--secondary-font-color);
 }
 
 .projects span {
     position: absolute;
     top: 20px;
     padding: 10px;
-    color: white;
-    background-color: black;
+    color: var(--button-background);
+    background-color: var(--black);
     font-size: 20px;
     font-weight: bold;
-    border-left: 4px solid white
+    border-left: 4px solid var(--button-background);
+}
+
+.projects span.no-1
+{
+    border-left: 8px solid rgb(255 40 0 / 64%)  ;
+}
+.projects span.no-4
+{
+    border-left: 8px solid rgb(127 127 127 / 64%) ;
+}
+.projects p.project-1
+{
+    background-color:rgb(255 40 0 / 64%);
+}
+.projects p.project-4
+{
+    background-color:rgb(127 127 127 / 64%);
 }
 
 .projects p {

@@ -7,7 +7,7 @@ section.home>img {
     height: 120px;
     width: 120px;
     border-radius: 62px;
-    border: 4px solid white;
+    border: 4px solid var(--button-background);
 }
 
 section.home p {

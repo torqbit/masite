@@ -22,7 +22,13 @@ ul {
   margin: 0;
   padding: 0;
 }
-
+:root {
+  --primary-font-color: #666;
+  --secondary-font-color: #888;
+  --button-background: #fff;
+  --background: #eee;
+  --black: #000;
+}
 p {
-  color: #888;
+  color: var(--secondary-font-color);
 }
